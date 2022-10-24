@@ -102,7 +102,7 @@ final class MyLibraryTests: XCTestCase {
         let temp = try await myMockServer.getTemperature()
         
         //Then
-        XCTAssertEqual(temp, 286)
+        XCTAssertEqual(temp, 283)
     }
 
 }
